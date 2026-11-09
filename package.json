@@ -1,0 +1,30 @@
+{
+  "name": "coud-ges-evac",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Application de gestion des interventions et évacuations médicales - Hôpital du COUD (Dakar)",
+  "type": "module",
+  "scripts": {
+    "start": "node start-dev.js",
+    "start:prod": "vite build && node server/index.js",
+    "dev": "node start-dev.js",
+    "server": "node server/index.js",
+    "client": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "lucide-react": "^0.468.0",
+    "mysql2": "^3.12.0",
+    "pg": "^8.13.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.5"
+  }
+}
+
